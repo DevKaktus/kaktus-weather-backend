@@ -1,8 +1,7 @@
 import express from "express";
 import updateInterval from "./fetchInterval.js";
 import { kazan } from "./fetchToUrl.js";
-
-const PORT = process.env.PORT || 5000;
+import { PORT } from "./config.js";
 
 const app = express();
 
