@@ -1,5 +1,5 @@
 import { fetchToUrl } from "./fetchToUrl.js";
-import { weatherUrlKazan } from "./config.js";
+import { weatherUrlKazan } from "./config/config.js";
 
 export default function updateInterval() {
   fetchToUrl(
